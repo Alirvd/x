@@ -15,7 +15,7 @@ _get_zlink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "https://github.com/Technical-PGF22/archivemaster.zip"
+        echo "https://github.com/Alirvd/x/archivemaster.zip"
     fi
 }
 
