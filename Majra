@@ -44,8 +44,8 @@ _start_bot () {
     chmod -R 755 bin
     echo "⌭ جـاري بـدء تنصيـب المـجــره ⌭ "
     echo ""
-    cd n
-    ls
+    cd x-main
+    python3 -m zthon
 }
 
 _start_bot
