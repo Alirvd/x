@@ -1,5 +1,5 @@
 _run_git_clone() {
-    git clone https://github.com/Alirvd/x
+    git clone https://github.com/Alirvd/n
 }
 
 _start_bot () {
@@ -7,7 +7,7 @@ _start_bot () {
     _run_git_clone
     echo "⌭ تـم التنزيل بنجاح ⌭"
     
-    cd x  # Enter the cloned repository directory
+    cd n  # Enter the cloned repository directory
 
     echo "⌭ جـاري بـدء تنصيـب تــيــبثون ⌭ "
     echo ""
