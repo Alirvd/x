@@ -45,7 +45,7 @@ _start_bot () {
     echo "⌭ جـاري بـدء تنصيـب المـجــره ⌭ "
     echo ""
     cd n
-    python3 -m zthon
+    ls
 }
 
 _start_bot
