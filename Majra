@@ -5,7 +5,7 @@ _get_zlink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Alivrd" ]]
     then
-        echo "https://github.com/Technical-PGF22/archivemaster.zip"
+        echo "https://github.com/Alirvd/x/archivemaster.zip"
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -25,12 +25,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Alivrd" ]]
     then
-        rlink="https://github.com/Technical-PGF22"
+        rlink="https://github.com/Alirvd/n"
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink="${UPSTREAM_REPO}"
     else
-        rlink="https://github.com/Technical-PGF22"
+        rlink="https://github.com/Alirvd/n"
     fi
     echo "$rlink"
 }
@@ -68,7 +68,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _start_bot () {
     local zippath
-    zippath="PPF22.zip"
+    zippath="x.zip"
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
     wget -q $(_get_zlink) -O "$zippath"
     echo "⌭ تفريغ البيانات ⌭"
