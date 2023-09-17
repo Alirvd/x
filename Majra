@@ -47,7 +47,7 @@ OFFICIAL_UPSTREAM_REPO = "https://github.com/Alirvd/n"
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
-origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
+origin = repo.create_remote("Alirvd", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
 repo.create_head(ACTIVE_BRANCH_NAME, origin.refs[ACTIVE_BRANCH_NAME])
 repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
